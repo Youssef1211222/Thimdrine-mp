@@ -371,7 +371,117 @@ label{
     width: 250px;
     height: 25px;
 }
+@media (max-width: 768px) {
+  * { box-sizing: border-box; }
 
+  header {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 010px;
+    gap: 8px;
+  }
+  .logo {
+    height: 35px;
+    width: 100px;
+    display: flex;
+  }
+  .menu {
+    justify-content: center;
+    gap: 10px;
+    
+  }
+  .menu a {
+    font-size: 15px;
+  }
+
+  .hero {
+     padding: 20px;
+  }
+  .hero-contenu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .hero-text {
+    width: 100%;
+  }
+  .sujit {
+    font-size: 30px; 
+ }
+  .boutons {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  .hero-img {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .apercu { padding: 30px 20px; }
+  .produits-intro {
+    margin: 0 20px 30px;
+  }
+  .liste-produits { gap: 20px; }
+  .produit {
+    width: 100%;
+    max-width: 320px;
+  }
+  .l-produits {
+    display: block;
+    padding: 0;
+    margin: 10px 20px;
+  }
+
+
+  .l-p-texte { padding: 25px 20px; }
+  .p-t1 {
+    font-size: 22px;
+    text-align: center;
+  }
+  .p-t2 {
+    display: block;
+    text-align: center;
+  }
+
+  .Paid-de-page {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+  }
+  .links { align-items: center; }
+
+  .Definition { padding: 0 20px; }
+  .d-t-1 { font-size: 24px; }
+
+  .propos { margin: 20px; }
+  .p-p { font-size: 18px; }
+  .p-p-1,
+  .p-p-2 {
+    flex-direction: column;
+    margin: 20px 0;
+    gap: 20px;
+  }
+  .p-p-t { font-size: 18px; }
+  .p-i {
+    width: 100%;
+    height: auto;
+  }
+
+  .contact { padding: 0 20px; }
+  .user {
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 20px;
+  }
+  .input,
+  .message-input,
+  select {
+    width: 100%;
+  }
+}
 
 
 
