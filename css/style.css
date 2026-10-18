@@ -19,15 +19,11 @@ header{
     padding-left: 100px;
     padding-right: 100px;
     height: 100px;
-    width: auto;
+    width: 1350px;
     background-color: var(--couleur-terre);
-    margin: 2px 2px;
-    border-radius: 8px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
 }
 body{
-    margin: 0px;
+    margin: 0;
     background-color: var(--couleur-lin);
     
 }
@@ -162,7 +158,6 @@ body{
     line-height: 30px;
 }
 .liste-produits{
-
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -170,7 +165,6 @@ body{
     justify-content: center;
 }
 .produit{
-    overflow: hidden;
     background-color: bisque;
     border-radius: 8px;
     max-width: 300px;
@@ -187,6 +181,7 @@ body{
     width: 100%;
     height: 200px;
     object-fit: cover;
+    border-radius: 8px;
 }
 .produit-texte{
     padding: 15px;
@@ -256,12 +251,11 @@ body{
     background-color: var(--couleur-terre);
     display: flex;
     justify-content: space-around;
-    margin: auto 0; 
-    border-radius: 30px;
+    margin: auto 0;
     gap: 30px   ;
 }
 .Horaires{
-    padding-right: 120px;
+    padding-right: 110px;
 }
 .t-f-1{
     font-size: larger;
@@ -389,7 +383,7 @@ label{
     flex-direction: column;
     padding: 10px 5px;
     gap: 8px;
-    margin: 10px 12;
+    width: auto;
   }
   .logo {
     height: 35px;
@@ -499,4 +493,3 @@ label{
     width: 100%;
   }
 }
-
