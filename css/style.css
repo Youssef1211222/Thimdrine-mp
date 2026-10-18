@@ -13,6 +13,8 @@
   --police-texte: 'Source Sans 3', Arial, sans-serif;
 }
 header{
+    top: 0;
+    position: sticky;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -312,6 +314,7 @@ body{
     width: 400px;
     height: 300px;
     object-fit: cover;
+    border-radius: 30px;
 }
 .p-p-1{
     margin-top: 60px;
